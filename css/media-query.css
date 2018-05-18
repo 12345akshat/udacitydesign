@@ -1,0 +1,228 @@
+/*----------------------------mobile-------------*/
+@media screen and (min-width: 320px) and (max-width: 450px){
+	.menu-custom{
+		padding:0px 0px !important;
+		background: #309fa5;
+	}
+	.nav-tog-cus{
+		float: left;
+	}
+	.logo-custom {
+    width: 160px;
+    height: 30px;
+    margin-top: -5px;
+	}
+	.lft-bord {
+    border: none !important;
+	}
+	.call-cs {
+    width: 32px;
+    margin: 8px 17px;
+	float:right;
+	}
+	.sec1-head{font-size:24px;}
+	.star-inserted {
+    padding: 50px 0px !important;
+}
+	.card-content {float: none;}
+	.abc {padding: 15px 10px 30px 10px;}
+	.no-padding{padding:0px 0px;}
+
+	.btn-cv-sec-4 {
+
+    text-align: center;
+    margin: 30px 0px;}
+	.ico-bb{margin:0px auto;float:none;}
+	.sec-5-para {
+    padding: 0px 0px;
+    text-align: center;
+	}
+	  .sec-5-head{  text-align: center;
+}
+	.img-phone{display:none;}
+	.sec-5-img2{display:none;}
+	.sec-5-img1 {
+    width: 100%;
+    height: 200px;
+    float: none;
+	}
+	.item {
+
+    padding: 0px 50px;}
+	.para-sec6 {
+
+    font-size: 16px;
+
+}
+.box-sec8.shad {
+    margin-top: 30px;
+}
+.col-head-sec9 {
+    line-height: 25px;
+}
+	.para-sec9{font-size:16px;}
+}
+.menu-lnk {
+    padding: 20px 35px !important;
+    border-bottom: 1px solid grey;
+	}
+	.nav.navbar-nav.navbar-right.text-center {
+    background: #2e3d49;
+    height: 100%;
+    padding: 15px 0px;
+	}
+	.logo-custom-1 {
+
+    width: 186px;
+    height: 44px;
+    margin-top: -58px;
+    margin-left: 41px;
+
+	}
+
+/*--------------------------mobile-tab------------*/
+@media screen and (min-width: 451px) and (max-width: 767px){
+	.call-cs {
+    width: 32px;
+    margin: 8px 17px;
+	float:right;
+	}
+	.card-content {float: none;}
+	.box-sec8.shad {
+    margin-top: 30px;
+	}
+	.btn.btn-cv-sec-4 {
+    text-align: center;
+    margin: 30px 0px
+	}
+	.sec-3-head {font-size: 26px;}
+	.ico-bb{margin:0px auto;float:none;}
+	.sec-5-para {
+    padding: 0px 0px;
+    text-align: center;
+	}
+	.sec-5-para {
+    padding: 0px 0px;
+    text-align: center;
+	}
+	  .sec-5-head{  text-align: center;
+}
+	.img-phone{display:none;}
+	.sec-5-img2{display:none;}
+	.sec-5-img1 {
+    width: 100%;
+    height: 200px;
+    float: none;
+	}
+	
+	.img-box-sec5 {
+    padding: 0px;
+    margin: 15px 0px;
+	}
+	.item {
+
+    padding: 0px 50px;}
+	.box-sec8.shad {
+    margin-top: 30px;
+}
+	.col-head-sec9 {
+    line-height: 25px;
+}
+	.para-sec9{font-size:24px;}
+	.abc {
+
+    padding: 15px 15px 30px 15px;
+    width: 100%;
+
+	}
+	.span-inner-cv {
+    left: -1%;}
+	
+	.menu-lnk {
+    padding: 20px 35px !important;
+    border-bottom: 1px solid grey;
+	}
+	.nav.navbar-nav.navbar-right.text-center {
+    background: #2e3d49;
+    height: 100%;
+    padding: 15px 0px;
+	}
+	
+	.logo-custom-1 {
+
+    width: 186px;
+    height: 44px;
+    margin-top: -58px;
+    margin-left: 41px;
+
+}
+}
+/*----------------------------tablet-------------*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.call-cs {display:none;}
+	.br-mobile{display:none;}
+	.call-cs {
+    width: 32px;
+    margin: 8px 17px;
+	float:right;
+	}
+	.card-content {float: none;}
+	.abc {padding: 15px 10px 30px 10px;}
+	.side-bx-1 {
+    width: 20%;}
+	.sec-3-head {font-size: 26px;}
+	.img-box-sec5 {
+    padding: 0px;
+    margin: 15px 0px;
+	}
+	.img-phone{display:none;}
+	.sec-5-img2{display:none;}
+	.sec-5-img1 {
+    width: 100%;
+    height: 440px;
+    float: none;
+	}
+	.nav-2{    background: transparent !important;
+    height: 100%;
+    padding: 0px 0px;
+	}
+	.menu-lnk2{
+		border:none !important;
+		padding: 0px 15px;
+	}
+	.navbar-btn2 {
+    margin-top: -8px;
+}
+}
+/*---------------------------desktop---------------*/
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+	.call-cs {display:none;}
+	.br-mobile{display:none;}
+	.nav-2{    background: transparent !important;
+    height: 100%;
+    padding: 0px 0px;
+	}
+	.menu-lnk2{
+		border:none !important;
+		padding:0px 35px;
+	}
+	.navbar-btn2 {
+    margin-top: -8px;
+}
+}
+/*---------------------------big-desk------------*/
+@media screen and (min-width: 1281px) and (max-width: 1990px){
+	.call-cs {display:none;}
+	.br-mobile{display:none;}
+	.nav-2{    background: transparent !important;
+    height: 100%;
+    padding: 0px 0px;
+	}
+	.menu-lnk2{
+		border:none !important;
+		padding:0px 35px;
+	}
+	.navbar-btn2 {
+    margin-top: -8px;
+}
+}

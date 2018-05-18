@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>hover</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		 <!-- Style CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Media-Query -->
+		<link rel="stylesheet" href="css/media-query.css">
+		<!--fontawsome CSS -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	</head>
+
+	<body id="main">
+		<header >
+			<nav class="navbar menu-custom navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle nav-tog-cus" onclick="openNav()" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="#"><img class="logo-custom" src="img/logo.png"/></a>
+						
+						<img src="img/cal.png" alt="call" class="call-cs">
+					</div>
+					<div id="mySidenav" class="sidenav">
+						<img class="logo-custom-1" src="img/logo.png"/>
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					
+						<ul class="nav navbar-nav navbar-right text-center">
+							<li class="menu-lnk">Nanodegree</li>
+							<li class="menu-lnk">For Business</li>
+							<li class="menu-lnk">Hire Talent</li>
+							<li class="menu-lnk">Course Finder</li>
+							<li class="menu-lnk lft-bord">Log In</li>
+							<button class="btn navbar-btn navbar-btn-custom">Refer & Earn</button>
+						</ul>
+					
+					</div>
+					<ul class="nav navbar-nav navbar-right text-center nav-2 hidden-xs">
+							<li class="menu-lnk2">Nanodegree</li>
+							<li class="menu-lnk2">For Business</li>
+							<li class="menu-lnk2">Hire Talent</li>
+							<li class="menu-lnk2">Course Finder</li>
+							<li class="menu-lnk2 lft-bord">Log In</li>
+							<button class="btn navbar-btn2 navbar-btn-custom">Refer & Earn</button>
+						</ul>
+					
+				
+				</div>
+			</nav>
+		</header>
+		
+		<!------------------section-1---------------------->
+		
+		<section class="star-inserted" style="padding:90px 0px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<h1 class="sec1-head">Join Udacity and upskill with a Nanodegree Program</h1>
+						<p id="startchange" class="sec1-para">Get ready for the jobs of today and tomorrow</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------------------------section-2---------------------->
+		
+		<section class="hero-home">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 no-padding">
+						<img class="cv-image shad" src="img/udac.jpg">
+						<span class="span-inner-cv">
+							<h6 class="sm-head">REFER &amp; EARN</h6>
+							<h2 class="bg-hd">#BetterTogether</h2>
+							<p class="summary ng-star-inserted">
+								<span class="ng-star-inserted">Help your friends upskill and get career<br class="br-mobile"/> ready with Udacity.</span>
+								<span class="ng-star-inserted"> 
+									<strong>Earn upto Rs 25,000</strong>
+								</span>
+							</p>
+							<button class="btn btn-cv-custom">REFER NOW</button>
+						</span>
+					</div>
+					<div class="col-md-4 col-sm-12 abc">
+						<div class="col-md-12 shad">
+							<div class="row">
+								<img class="side-bx-1" src="img/lft-box.png">
+								<div class="card-content">
+									<h6 class="turquoise">Enroll Now</h6>
+									<p class="slate">IoT Software Foundation</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 abc">
+						<div class="col-md-12 shad">
+							<div class="row">
+								<img class="side-bx-1" src="img/lft-box.png">
+								<div class="card-content">
+									<h6 class="turquoise">Enroll Now</h6>
+									<p class="slate">IoT Software Foundation</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 abc">
+						<div class="col-md-12 shad">
+							<div class="row">
+								<img class="side-bx-1" src="img/lft-box.png">
+								<div class="card-content">
+									<h6 class="turquoise">Enroll Now</h6>
+									<p class="slate">IoT Software Foundation</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-------------------------------section-3----------------------------------->
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<h2 class="sec-3-head">Choose from our category of Nanodegree Programs</h2>
+						<!------------------portfolio--------------------->
+						<div class="main">
+
+							<div id="myBtnContainer" class="box-select">
+								<button class="btn btn-cst active" onclick="filterSelection('all')"> Show all</button>
+								<button class="btn btn-cst" onclick="filterSelection('nature')"> Nature</button>
+								<button class="btn btn-cst" onclick="filterSelection('cars')"> Cars</button>
+								<button class="btn btn-cst" onclick="filterSelection('people')"> People</button>
+							</div>
+
+							<!-- Portfolio Gallery Grid -->
+							<div class="row">
+								<div class="col-md-4 java-col nature">
+									<div class="content shad">
+										<img src="img/udac.jpg" alt="Lights" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+								<div class="col-md-4 java-col nature">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Lights" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+							  
+								<div class="col-md-4 java-col cars">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Car" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+								<div class="col-md-4 java-col cars">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Car" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+								<div class="col-md-4 java-col cars">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Car" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+
+								<div class="col-md-4 java-col people">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Car" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+								<div class="col-md-4 java-col people">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Car" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+								<div class="col-md-4 java-col people">
+									<div class="content shad">
+										<img src="img/udac.jpg" class="shad" alt="Car" style="width:100%">
+										<h4 class="text-inter-c">Neural Networks Foundation</h4>
+									</div>
+								</div>
+							<!-- END GRID -->
+							</div>
+
+						<!-- END MAIN -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------------section-4---------------------------------------->
+		
+		<section class="sec-back">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-cov text-center">
+							<h4 class="heading">Help your friends upskill and get career ready with Udacity.</h4>
+							<h3 class="subtitle">
+								Earn upto Rs 25,000 
+							</h3>
+							<a class="btn btn-cv-sec-4">
+								Invite Now
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!----------------------------------section-5--------------------------------->
+			
+		<section>
+			<div class="container">
+				<div class="row">
+					<h3 class="sec-3-head" style="color:#02b3e4">The Udacity Advantage</h3>
+					<div class="col-md-12">
+						<div class="whole-box-sec5">
+							<div class="col-md-6 col-sm-6">
+								<div class="ico-bb">	
+									<span>
+										<i class="far fa-lightbulb icon-custom"></i>
+									</span>
+								</div>
+								<h3 class="sec-5-head">
+									Master the most <br>competitive skills
+								</h3>
+								<p class="sec-5-para">Our Nanodegree programs are built with the world's most forward–thinking companies–Google, Facebook, AT&T, IBM, GitHub, and more. Our expert project reviewers, mentors and coaches ensure that you're job-ready.</p>
+							</div>
+							<div class="col-md-6 col-sm-6">	
+								<div class="img-box-sec5">
+									<img src="img/udac.jpg" class="shad sec-5-img1">
+									<img src="img/udac.jpg" class="shad sec-5-img2">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-12">
+						<div class="whole-box-sec5">
+							<div class="col-md-6 col-sm-6 hidden-xs hidden-sm">	
+								<div class="img-box-sec5">
+									<img src="img/udac.jpg" class="shad sec-5-img1">
+									<img src="img/udac.jpg" class="shad sec-5-img2">
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="ico-bb">	
+									<span>
+										<i class="far fa-lightbulb icon-custom"></i>
+									</span>
+								</div>
+								<h3 class="sec-5-head">
+									Master the most <br>competitive skills
+								</h3>
+								<p class="sec-5-para">Our Nanodegree programs are built with the world's most forward–thinking companies–Google, Facebook, AT&T, IBM, GitHub, and more. Our expert project reviewers, mentors and coaches ensure that you're job-ready.</p>
+							</div>
+							<div class="col-md-6 col-sm-6 show-sm hidden-md hidden-lg">	
+								<div class="img-box-sec5">
+									<img src="img/udac.jpg" class="shad sec-5-img1">
+									<img src="img/udac.jpg" class="shad sec-5-img2">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-12">
+						<div class="whole-box-sec5">
+							<div class="col-md-6 col-sm-6">
+								<div class="ico-bb">	
+									<span>
+										<i class="far fa-lightbulb icon-custom"></i>
+									</span>
+								</div>
+								<h3 class="sec-5-head">
+									Master the most <br>competitive skills
+								</h3>
+								<p class="sec-5-para">Our Nanodegree programs are built with the world's most forward–thinking companies–Google, Facebook, AT&T, IBM, GitHub, and more. Our expert project reviewers, mentors and coaches ensure that you're job-ready.</p>
+							</div>
+							<div class="col-md-6 col-sm-6">	
+								<div class="img-box-sec5">
+									<img src="img/udac.jpg" class="shad sec-5-img1">
+									<img src="img/udac.jpg" class="shad sec-5-img2">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-----------------------------------------section-6------------------->
+		
+		<section class="section-6">	
+			<div class="container-fluid">
+				<h5 class="sec6-head">Our Amazing Community</h5>
+				<div id="myCarousel" class="carousel slide slide-custom" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner text-center">
+					  <div class="item active">
+						<p class="para-sec6">    "I hope the Udacity experience can be as transformative and revealing for others as it has been for me."<br><br>
+  <address>  — JAMES, Graduate
+</address> </p>
+					  </div>
+					  <div class="item">
+						  <p class="para-sec6">    "Udacity has empowered me to be a better software engineer. They have given me opportunities that I would not have if I had to rely on the traditional education system."<br><br><address>
+    — JONATHAN, Graduate </address></p>
+					  </div>
+					  <div class="item">
+						  <p class="para-sec6">    "Before Udacity, I was a high school math teacher with no CS background. Now I'm an Android Developer at Capital One, doing something I love while earning twice as much."<br><br><address>
+    — BEN, Graduate</address> </p>
+					  </div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control cara-control" href="#myCarousel" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left gly-custom"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control cara-control" href="#myCarousel" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right gly-custom"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				</div>
+				<div class="text-center">
+					<img src="img/cov.png" alt="image">
+				</div>
+			</div>
+		</section>
+		
+		<!--------------------------------------section-7--------------------->
+		
+		<section class="section-7">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<h2 class="sec7-head">Udacity on the go</h2>
+							<p class="sec7-para">Now you can achieve your goals on the move. Discover our offerings, personalised recommendations, classroom experience and so much more. Install Now!</p>
+							<img src="img/goo.png" alt="google" class="img-google">
+						</div>
+						<div class="col-md-6">
+							<img src="img/phone.png" alt="phone" class="img-phone">
+						</div>
+					</div>
+				<div>
+			</div>
+		</section>
+		
+		<!-------------------------------------------section-8--------------------->
+		
+		<section class="section8">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<div class="box-sec8 shad">
+							<div class="row">
+								<img class="side-sec8" src="img/lft-box.png">
+								<div class="">
+									<h2 class="sec8-head">Udacity on the go</h2>
+									<p class="sec8-para">Now you can achieve your goals on the move. Discover our offerings.</p>
+								</div>
+								
+							</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="box-sec8 shad">
+							<div class="row">
+								<img class="side-sec8" src="img/lft-box.png">
+								<div class="">
+									<h2 class="sec8-head">Udacity on the go</h2>
+									<p class="sec8-para">Now you can achieve your goals on the move. Discover our offerings..</p>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!----------------------------------------------------section-9------------------>
+		
+		<section class="section9">	
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2 class="head-sec9">Conatct US</h2>
+						<p class="para-sec9">If you have a question, we have an answer. If you need something, we'll help you. Contact us anytime.</p>
+					</div>
+					<div class="col-md-6 text-center">
+						<h4 class="col-head-sec9">For enrollment related queries & support<br>
+						(Mon-Fri 10am to 10pm)</h4>
+						<h3 class="col-head-sec9">1800-121-6240</h3>
+					</div>
+					<div class="col-md-6 text-center cus-lf">
+						<h4 class="col-head-sec9">For technical issues & support<br>
+						(response between 24-48 hrs)</h4>
+						<h3 class="col-head-sec9">india@udacity.com</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!------------------------------------footer----------------->
+		<footer class="foot">	
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<p>"Nanodegree" is a registered trademark of Udacity. © 2011–2018 Udacity, Inc.</p>
+					</div>
+				<div>
+			</div>
+		</footer>
+		
+		<!-- js -->
+		<script>
+			$('#myCarousel').on('slide.bs.carousel', function () {
+				$('.carousel').carousel({
+				  interval: 2000
+				})
+			})
+		</script>
+		<script>
+			filterSelection("all")
+			function filterSelection(c) {
+			  var x, i;
+			  x = document.getElementsByClassName("java-col");
+			  if (c == "all") c = "";
+			  for (i = 0; i < x.length; i++) {
+				w3RemoveClass(x[i], "show");
+				if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			  }
+			}
+
+			function w3AddClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+				if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+			  }
+			}
+
+			function w3RemoveClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+				  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+				}
+			  }
+			  element.className = arr1.join(" ");
+			}
+
+
+			// Add active class to the current button (highlight it)
+			var btnContainer = document.getElementById("myBtnContainer");
+			var btns = btnContainer.getElementsByClassName("btn");
+			for (var i = 0; i < btns.length; i++) {
+			  btns[i].addEventListener("click", function(){
+				var current = document.getElementsByClassName("active");
+				current[0].className = current[0].className.replace(" active", "");
+				this.className += " active";
+			  });
+			}
+		</script>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "50%";
+				document.getElementById("main").style.marginLeft = "50%";
+				document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+				document.body.style.backgroundColor = "white";
+			}
+			</script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>	
